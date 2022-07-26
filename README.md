@@ -1,3 +1,9 @@
 # This is only_fourth-order_determinant
-##So let me practice Markdown
->To Be Or Not To Be
+## So let me practice Markdown
+几个月前写的代码突然背刺我
+思路就是化成上三角的形式然后就可以主对角线相乘就出来了。不过这个代码在处理0时有bug
+1.第一行的第一个元素把下面所有行的第一个元素变成0
+2.第二行的第二个元素把下面所有行的第二个元素变成0
+3.第三行的第三个元素把下面所有行的第二个元素变成0
+4. ....以此类推
+就出来了
